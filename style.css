@@ -1,0 +1,49 @@
+/* Hace que el fondo cubra toda la pantalla y se estire si hay más contenido */
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo y estilo general */
+body {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Títulos con sombra */
+h1, h2 {
+    text-shadow: 0 0 10px black;
+}
+
+/* Botones */
+button {
+    background-color: #222;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: 0.25s;
+}
+
+/* Efecto hover */
+button:hover {
+    background-color: #ff3b3b;
+    transform: scale(1.08);
+}
+
+/* Caja de preguntas */
+fieldset {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
